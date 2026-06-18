@@ -1,0 +1,41 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    /* position: sticky;
+    top: 0;
+    width: 100%; */
+}
+
+ul li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: #111111;
+}
+
+ul li a:active {
+    background-color: #04AA6D;
+}
+
+#avatar {
+    display: block;
+    width: 300px;
+    position: relative;
+    left: 300px;
+    bottom: 100px;
+}
+
+.text {
+    color:cadetblue;
+    position: relative;
+    right: 5px;
+    
+}

@@ -1,3 +1,8 @@
+body {
+    background-color: #F7F7FA;
+}
+
+/* Nav Bar */
 ul {
     list-style-type: none;
     margin: 0;
@@ -5,9 +10,9 @@ ul {
     background-color: #333333;
     display: flex;
     justify-content: center;
-    /* position: sticky;
-    top: 0;
-    width: 100%; */
+
+    border-radius: 12px;
+    border: 2px solid #7d5c5c;
 }
 
 ul li a {
@@ -18,24 +23,51 @@ ul li a {
 }
 
 ul li a:hover {
-    background-color: #111111;
+    background-color: #5638D8;
 }
 
-ul li a:active {
-    background-color: #04AA6D;
+.active {
+    background-color: #6C4CF4;
 }
 
-#avatar {
-    display: block;
-    width: 300px;
-    position: relative;
-    left: 300px;
-    bottom: 100px;
+/* Hero Section */
+
+#intro {
+    font-size: xx-large;
 }
 
-.text {
-    color:cadetblue;
-    position: relative;
-    right: 5px;
-    
+.hero-section {
+    text-align: center;
+    font-family: 'Inconsolata';
+    font-size: small;
+    color: #1A1A1A;
+}
+
+.subtle-text {
+    color: #4A4A4A;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    padding-left: 6px;
+}
+
+#call-to-action {
+    border-radius: 12px;
+    background-color:#6C4CF4;
+    border: none;
+    padding: 5px 10px;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#call-to-action a {
+    text-decoration: none;
+    color:white;
+    cursor:zoom-in;
+}
+
+#call-to-action a:hover {
+    color: #5638D8;
 }

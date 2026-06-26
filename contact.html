@@ -2,10 +2,12 @@
 <html>
 
 <head>
+    <title>Contact Me</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
     <script defer src="script.js"></script>
 </head>
 
@@ -17,6 +19,41 @@
         <li><a href="about.html" class="about">About Me</a></li>
         <li><a href="contact.html" class="contact active">Contact</a></li>
     </ul>
+
+    <div class="contact-section">
+        <div style="text-align: left;">
+            <h2>Let's Connect</h2>
+            <p>Whether you want to collaborate, ask questions, or just say hello! <br><br>I'd still love to hear from you!</p>
+        </div>
+        <div class="row">
+            <div class="column">
+                <img src="avatar pics/cheeky avatar.png" alt="ThinkingAvatar">
+            </div>
+            <div class="column">
+                <form action="mailto:anaiahkaycee@gmail.com" method="post" enctype="text/plain">
+                    <strong for="name">Name</strong>
+                    <br>
+                    <input type="text" id="name" name="name" placeholder="Your name">
+                    <br><br>
+                    <strong for="email">Email</strong>
+                    <br>
+                    <input type="text" id="email" name="email" placeholder="Your email">
+                    <br><br>
+                    <strong for="message">Message</strong>
+                    <br>
+                    <textarea id="message" name="message" placeholder="Write your message"></textarea>
+                    <br><br>
+                    <input type="submit" value="Send Message"></input>
+                </form>
+            </div>
+            <hr>
+            <div class="contact-links">
+                <h1>Get in Touch</h1>
+                <p>Email: <a href="mailto:anaiahkaycee@gmail.com">anaiahkaycee@gmail.com</a></p>
+                <p>GitHub: <a href="https://github.com/KayceeThompson">github.com/KayceeThompson</a></p>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

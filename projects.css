@@ -7,18 +7,36 @@ hr {
     border: 1px solid #a347d5;
 }
 
-.apocalypse-simulation h2, .apocalypse-simulation p {
+.apocalypse-simulation h2, .apocalypse-simulation p, .repro-justice h2, .repro-justice p, .mad-libs h2, .mad-libs p, .number-game h2, .number-game p {
     padding: 2px 15px;
 }
 
-.apocalypse-simulation {
+.apocalypse-simulation, .repro-justice, .mad-libs, .number-game {
     background-color: white;
     box-shadow: 0px 10px 40px -5px rgba(0, 0, 0, 0.15);
     border-radius: 12px;
 }
 
-img {
-    width: auto;
-    height: 300px;
+#im1 {
+    width: 400px;
+    height: auto;
+    padding-left: 6px;
+}
+
+#im2 {
+    width: 400px;
+    height: 200px;
+    padding-left: 6px;
+}
+
+#im3 {
+    width: 500px;
+    height: 500px;
+    padding-left: 6px;
+}
+
+#im4 {
+    width: 400px;
+    height: 400px;
     padding-left: 6px;
 }

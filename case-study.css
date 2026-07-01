@@ -1,0 +1,53 @@
+#avatar {
+    width: 200px;
+    height: 250px;
+}
+
+.top-section, .case-study-section {
+    text-align: center;
+    font-family: 'Inconsolata';
+    color: #1A1A1A;
+}
+
+#emoji {
+    width: 45px;
+    height: 45px;
+}
+
+ul, ol {
+   text-align: left;
+}
+
+#main-separator {
+    border: 1px solid #a347d5;
+}
+
+#emoji, #text {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+button a {
+    text-decoration: none;
+    color:white;
+}
+
+button {
+    background-color: #6C4CF4;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5638D8;
+}
+
+.challenge, .planning, .building, .testing, .learning {
+    background-color: white;
+    box-shadow: 0px 10px 40px -5px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    padding: 5px;
+}
